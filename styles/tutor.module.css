@@ -1,0 +1,207 @@
+#tutorContainer {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  margin: 15px;
+}
+
+#tutorCard {
+  min-width: 300px;
+  max-width: 700px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+}
+
+#tutor {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: 200px;
+  padding: 20px 0px;
+}
+
+#tutorInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tutorMessage {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#price {
+  width: 100%;
+  font-size: medium;
+  text-align: right;
+}
+
+#ratings {
+  height: 100%;
+  color: #f9cf02;
+  display: flex;
+  margin-top: 25px;
+}
+
+#reviewNumber {
+  margin-left: 10px;
+  color: #311b92;
+}
+
+#courseCompletionNumber {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: #42ccbb;
+  margin-right: 10px;
+}
+
+#courseCompletionText {
+  color: rgb(88, 88, 88);
+  margin-bottom: 25px;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+}
+
+#saveProfile {
+  color: #311b92;
+}
+
+#showMore {
+  display: flex;
+}
+
+#showMoreText,
+#showMoreIcon {
+  color: #181357;
+  margin: 10px 0px;
+}
+
+#messageCard {
+  min-width: 300px;
+  max-width: 500px;
+  height: 550px;
+  padding: 15px;
+}
+
+#messageTitle {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#message {
+  display: flex;
+  background-color: #fff4d5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#messageInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#bulbIcon {
+  color: #f9cf02;
+  margin: 0px 2px;
+}
+
+#messageBox {
+  text-align: center;
+}
+
+#messageField {
+  width: 250px;
+}
+
+#formControl {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+#inputLabel {
+  width: 100%;
+  display: none;
+}
+
+#sendMessage {
+  display: flex;
+  flex-direction: column;
+}
+
+#sendMessageOnMobile {
+  display: none;
+}
+
+#checkBox {
+  background-color: #311b92;
+}
+
+#responseTime {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#btn {
+  background-color: #311b92;
+  color: white;
+}
+
+#moreTutors {
+  color: #311b92;
+  margin: 10px 0px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #tutorContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  #tutorCard {
+    min-width: 300px;
+    margin: 0px;
+  }
+
+  #avatar {
+    width: 80px;
+    height: 80px;
+  }
+  #messageContainer {
+    display: none;
+  }
+  #sendMessageOnMobile {
+    display: flex;
+    justify-content: center;
+  }
+  #btn {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+  }
+}
